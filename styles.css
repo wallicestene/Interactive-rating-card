@@ -42,6 +42,7 @@ button{
     height: 40px;
     border-radius: 30px;
     border: none;
+    background: hsl(217, 19%, 23%);
 }
 .submit{
     padding-top: 20px;
