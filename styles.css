@@ -1,0 +1,99 @@
+*{
+    box-sizing:border-box;
+}
+.staricon{
+    height: 30px;
+    width: 30px;
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 6px;
+  background: hsl(217, 19%, 23%);
+}
+body{
+    align-items: center;
+    justify-content: center;
+    background: hsl(216, 12%, 8%);
+    font-family: overpass;
+    margin-top: 10%;
+}
+main{
+    margin: 0 auto;
+    width: 350px;
+    height: 300px;
+    background: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 20px;
+}
+p{
+    font-size: smaller;
+    color: hsl(216, 12%, 54%);
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    padding: 5px;
+} 
+button{
+    color:hsl(216, 12%, 54%);
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+}
+.submit{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#submit{
+    width: 95%;
+    height: 35px;
+    background:  hsl(25, 97%, 53%);
+    color: white;
+}
+.thank-you{
+    margin: 0 auto;
+    width: 350px;
+    height: 300px;
+    background: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.hidden{
+    display: none;
+  }
+  .thank-you img{
+    display: block;
+    margin: 0;
+  }
+.thank-you h2{
+    color: white;
+    margin: 0;
+  }
+  .thank-you p.selected{
+    background-color: hsl(214, 22%, 25%);
+    border-radius: 2rem;
+    width: 50%;
+    height: 15px;
+    color:hsl(25, 97%, 53%) ;
+  }
+  #submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+#button:hover{
+    background-color: hsl(25, 97%, 53%) ;
+    color: white;
+}
+#button:focus{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
